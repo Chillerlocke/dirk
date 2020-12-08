@@ -26,6 +26,7 @@ function get_sub_sup_massnamen ($name, $medium = 'html')
 		$name = str_replace('≥', '<small>≥</small> ', $name);
 	}
 
+	echo "Dirk the Hacker was here";
 
 	$name = str_replace('P1', 'P<sub>1</sub>', $name);
 	$name = str_replace('P2', 'P<sub>2</sub>', $name);
